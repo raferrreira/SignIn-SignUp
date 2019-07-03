@@ -1,0 +1,126 @@
+@media screen and (max-width: 1140px) {
+    .waves-bg {
+        background-size: 95%;
+        background-position-y: bottom;
+        background-position-x: 500%;
+    }
+
+    .infos-section {
+        margin-top: 30px;
+        -webkit-transform: inherit;
+        transform: inherit;
+    }
+
+    .bottom-section {
+        padding: 1em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo-section {
+        background: #ffffffa1;
+        width: 100%;
+        height: 100%;
+        padding: 1em 2em;
+    }
+
+    .linkedin-button {
+        font-size: 14px !important;
+        min-width: 230px;
+    }
+
+    form {
+        margin-bottom: 5em;
+    }
+
+    .centered-section {
+        height: 85vh;
+        overflow: auto;
+    }
+
+    .left-side {
+        height: 150px;
+        background-position: right;
+        background-size: 40% !important;
+        background-position: right !important;
+        -webkit-box-shadow: 0px 12px 13px 0px #ff740017;
+        box-shadow: 0px 12px 13px 0px #ff740017;
+        padding: 0;
+    }
+
+    .logo-section img {
+        mix-blend-mode: multiply;
+    }
+
+    .infos-section {
+        margin-top: 3em;
+    }
+
+    .title-section {
+        margin-top: 2em;
+    }
+
+    #internal-referral-page .infos-section {
+        height: auto;
+        padding: initial;
+    }
+
+    .bottom-section {
+        padding: 0;
+        margin-top: 1em;
+    }
+
+    .orange-bg {
+        border-radius: 5px 5px 0px 0px !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container .row {
+        padding: 1em;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .left-side {
+        background-size: 40% !important;
+        background-position: 110% 30% !important;
+    }
+
+    .infos-section {
+        -webkit-transform: inherit;
+        transform: inherit;
+        margin-top: 2em;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .left-side {
+        background-size: 40% !important;
+        background-position: 100% 50% !important;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .left-side {
+        background-size: 50% !important;
+        background-position: 110% 60% !important;
+        padding: 0;
+    }
+
+    .gradient-bg br {
+        display: block;
+    }
+
+    #internal-referral-page .gradient-bg {
+        height: 50px;
+    }
+
+    .orange-color br {
+        display: none;
+    }
+
+    .orange-empty-bg {
+        font-size: 12px !important;
+    }
+}
