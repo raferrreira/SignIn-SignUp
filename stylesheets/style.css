@@ -137,6 +137,10 @@ button:hover {
 button.gradient-bg:hover {
     color: #fff;
 }
+.logo-section img {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
 
 .logo-section p {
     padding-left: .5em;
